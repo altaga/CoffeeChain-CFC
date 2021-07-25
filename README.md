@@ -6,7 +6,7 @@ WebPage: https://coffee-chain-deploy-cfc.mybluemix.net/
 REDES DE COFFEE CHAIN
 
 <details>
-  <summary>INDEX Click Here</summary>
+  <summary>INDEX</summary>
 
 - [CoffeeChain-CFC](#coffeechain-cfc)
 - [Introduction:](#introduction)
