@@ -7,7 +7,7 @@ REDES DE COFFEE CHAIN
 
 <details>
   <summary>INDEX:</summary>
-  
+
 # Index:
 
 - [CoffeeChain-CFC](#coffeechain-cfc)
