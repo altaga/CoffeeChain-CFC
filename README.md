@@ -36,7 +36,9 @@ DOK
 
 # Problem:
 
-DOK
+Now back to our country:
+
+According to INEGI data, in Mexico approximately 8,500 people die each year from malnutrition, of which an average of 850 were less than 5 years old. According to data from the Ministry of Health, annually more than 170 thousand people get sick due to lack of food; all this, in a context in which more than 28 million Mexicans live in vulnerability due to lack of access to food, and 11.7 million in conditions of extreme poverty. The worst thing is that, according to INEGI, of the 48.7 million people who work, there are 22.1 million who receive income below 120 pesos a day.
 
 # Solution:
 
