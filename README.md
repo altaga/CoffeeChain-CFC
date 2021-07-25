@@ -1,12 +1,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [<img src="https://img.shields.io/badge/View-Website-blue">](https://main.dlf5ib9gvebgm.amplifyapp.com/) [<img src="https://img.shields.io/badge/View-Video-red">](https://www.youtube.com/watch?v=sUAdnfDavvE)
 
 
-# CoffeeChain-CFC
+# Coffee Chain
 
-<img src="./Images/logo.png">
+<img src="https://i.ibb.co/pfGfzkL/logos.png" width=300> 
+
+#### Marketplace with digital payment systems, which provides traceability and digital certificates based on Blockchain.
 
 WebPage: https://coffee-chain-deploy-cfc.mybluemix.net/
-REDES DE COFFEE CHAIN
+
+
 
 <details>
   <summary>INDEX Click Here</summary>
