@@ -150,7 +150,7 @@ Todo el control de versiones se realizo mediante un repositorio alojado en IBM.
 
 Todo el desarrollo del frontend fue realizado con el framework ReactJS.
 
-[WebPage](https://github.com/altaga/CoffeeChain-CFC/Website)
+[WebPage](https://github.com/altaga/CoffeeChain-CFC/tree/main/Website)
 
 ## Solana Blockchain Integration:
 
