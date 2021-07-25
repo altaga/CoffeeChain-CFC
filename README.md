@@ -5,6 +5,9 @@
 WebPage: https://coffee-chain-deploy-cfc.mybluemix.net/
 REDES DE COFFEE CHAIN
 
+<details>
+  <summary>INDEX:</summary>
+  
 # Index:
 
 - [CoffeeChain-CFC](#coffeechain-cfc)
@@ -21,6 +24,8 @@ REDES DE COFFEE CHAIN
   - [Solana Blockchain Integration:](#solana-blockchain-integration)
   - [Rapyd Integration:](#rapyd-integration)
 - [Deployment/Traction:](#deploymenttraction)
+
+</details>
 
 # Introduction:
 
