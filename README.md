@@ -20,10 +20,15 @@ REDES DE COFFEE CHAIN
   - [Toolchain (CI/CD):](#toolchain-cicd)
   - [Solana Blockchain Integration:](#solana-blockchain-integration)
   - [Rapyd Integration:](#rapyd-integration)
+- [Deployment/Traction:](#deploymenttraction)
 
 # Introduction:
 
+DOK
+
 # Problem:
+
+DOK
 
 # Solution:
 
@@ -149,5 +154,48 @@ Todo el desarrollo del frontend fue realizado con el framework ReactJS.
 
 ## Solana Blockchain Integration:
 
+La pagina web puede leer los datos directamente de la blockchain de solana para buscar el registro de cada prodcuto mediante su signature, el cual esta encoding en un QR para poderlo leer facilmente con la plataforma.
+
+<img src="./Images/solana.png">
+
+La lectura y escritura sobre la blockchain se hace atravez de la API de Solana.
+
+explorer-api.devnet.solana.com
+
+Esta seccion de la pagina tiene 3 secciones fundamentales.
+
+- El escaner de los codigos QR.
+
+<img src="./Images/scan.png" width="50%">
+
+- La informacion cargada desde la blockchain, la cual incluye los checkpoints, imagen, marca y demas informacion relacionada con el producto
+  
+<img src="./Images/infos.png" width="50%">
+
+- El mapa que tiene como fin poder ver las ubicaciones donde ha estado el producto haciendo checkpoint en la cadena de distribucion, ademas sobre el tendremo un link al explorer de la blockchain para poder ver la informacion cargada en ella directamente, cabe decir que esta informacion es permanente e imposible de cambiar.
+
+<img src="./Images/blockinfo.png" width="50%">
+
+Aqui te dejamos el QR de uno de los productos para que puedas revisarlo tu mismo.
+
+<img src="./Images/product.jpeg">
+
 ## Rapyd Integration: 
 
+El checkout de Rapyd es una de las partes mas importantes de el marketplace, ya que le da la capacidad de poder realizar pagos con dinero real para poder comprar los productos, en este caso la API que implementamos en la plataforma fue la de poder realizar el Checkout de los productos.
+
+En ese caso la api es ejecutada una vez hemos terminado de seleccionar los productos y presionamos el boton de Checout.
+
+<img src="./Images/cart.png">
+
+Podemos ver que una vez preisonamos el boton de Checkout nos lleva dorectamente a la plagina de Checkout que nos da Rapyd.
+
+<img src="./Images/check.png">
+
+Como parte de la implementacion de Rapyd podemos facilmente seleccionar y agregar todos los metodos de pago que creamos convenientes para nuestro negocio.
+
+<img src="./Images/method.png">
+
+# Deployment/Traction:
+
+DOK
