@@ -5,11 +5,11 @@
 WebPage: https://coffee-chain-deploy-cfc.mybluemix.net/
 REDES DE COFFEE CHAIN
 
-<details>
-  <summary>INDEX:</summary>
-
 # Index:
 
+<details>
+  <summary>INDEX:</summary>
+  
 - [CoffeeChain-CFC](#coffeechain-cfc)
 - [Index:](#index)
 - [Introduction:](#introduction)
