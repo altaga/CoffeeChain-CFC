@@ -19,7 +19,7 @@ WebPage: https://coffee-chain-deploy-cfc.mybluemix.net/
   <summary>INDEX Click Here</summary>
 
 - [CoffeeChain-CFC](#coffeechain-cfc)
-- [Introduction:](#introduction)
+- [Welcome to Coffee Chain:](#welcome-to-coffee-chain)
 - [Problem:](#problem)
 - [Solution:](#solution)
   - [DEMO:](#demo)
@@ -34,7 +34,7 @@ WebPage: https://coffee-chain-deploy-cfc.mybluemix.net/
 
 </details>
 
-# Introduction:
+# Welcome to Coffee Chain:
 
 DOK
 
