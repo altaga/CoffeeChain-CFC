@@ -36,13 +36,56 @@ WebPage: https://coffee-chain-deploy-cfc.mybluemix.net/
 
 # Welcome to Coffee Chain:
 
-DOK
+We are a platform where you can buy authentic, socially responsible and 100% organic products, validated and tracked by blockchain.
 
-# Problem:
+This is our submission for the call for code global challenge 2021 that aims to address the global challenge of hunger.
 
-Now back to our country:
 
-According to INEGI data, in Mexico approximately 8,500 people die each year from malnutrition, of which an average of 850 were less than 5 years old. According to data from the Ministry of Health, annually more than 170 thousand people get sick due to lack of food; all this, in a context in which more than 28 million Mexicans live in vulnerability due to lack of access to food, and 11.7 million in conditions of extreme poverty. The worst thing is that, according to INEGI, of the 48.7 million people who work, there are 22.1 million who receive income below 120 pesos a day.
+Let’s go through the problem, which is very near to the team as it is in our own country.
+
+Mexico among a population of 127 Million has 28 of those suffering from hunger and 11 in extreme hunger. More than half which are from indigenous populations.
+
+Economic growth is a key to alleviate that hunger, and already in these communities there's a plethora of agronomic cooperatives eager to sell their products. 
+
+But they have several challenges, one of the most important ones that we can even see in one of their logos is actually to have a fair trade.
+
+And that’s one of the biggest ones as we found out that most of these cooperatives have no electronic commerce and their products are being sold on other platforms in which case this does not reach the producers, indeed breaking fair trade which is devastating to those communities.
+
+Now, what does a consumer seek in a brand?
+
+The modern consumer seeks products that are:
+
+Socially Responsible
+Organic
+Healthy
+Sustainable
+But mainly….
+That they generate trust
+
+Trust is determinant in a social setting as we can see from this example from Nike related to a very social cause.
+
+Then our goal is to make a platform that HELPS producers by increasing consumer confidence and enhancing fair trade.
+
+# Traction:
+
+We have already taken some steps on that front by:
+
+Reaching out to a cooperative and get to know its pain points.
+Formed a commercial bond with them.
+Build a prototype and work together to launch it.
+
+The cooperative in this case is one named Obio that works in southeast Mexico and it is backed by one of the largest banks in our country and the world.
+
+
+
+# Validation
+
+Now this kind of idea has already reached several places and markets around the world such as the wine industry, beauty and others and it is heavily deployed by walmart china. But it has not been deployed in a social-responsible first project.
+
+Having said this, we seek that our certificates guarantee that the purchase benefits whoever produces it.
+
+Thank you.
+
 
 # Solution:
 
@@ -210,6 +253,4 @@ Como parte de la implementacion de Rapyd podemos facilmente seleccionar y agrega
 
 <img src="./Images/method.png">
 
-# Deployment/Traction:
 
-DOK
