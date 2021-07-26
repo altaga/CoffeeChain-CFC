@@ -9,6 +9,10 @@
 
 WebPage: https://coffee-chain-deploy-cfc.mybluemix.net/
 
+#### Click here to watch our demo video:
+
+[<img src="https://raw.githubusercontent.com/altaga/SCUP-WWAC/master/Images/click-here-button.png" width=200>](https://www.youtube.com/watch?v=sUAdnfDavvE)
+
 
 
 <details>
