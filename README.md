@@ -36,33 +36,39 @@ WebPage: https://coffee-chain-deploy-cfc.mybluemix.net/
 
 # Welcome to Coffee Chain:
 
-We are a platform where you can buy authentic, socially responsible and 100% organic products, validated and tracked by blockchain.
+It is a platform where you can buy authentic, socially responsible and 100% organic products, validated and tracked by blockchain.
 
 This is our submission for the call for code global challenge 2021 that aims to address the global challenge of hunger.
 
-
 Let’s go through the problem, which is very near to the team as it is in our own country.
-
 Mexico among a population of 127 Million has 28 of those suffering from hunger and 11 in extreme hunger. More than half which are from indigenous populations.
 
-Economic growth is a key to alleviate that hunger, and already in these communities there's a plethora of agronomic cooperatives eager to sell their products. 
+<img src="https://i.ibb.co/NTrggwr/mexicohunger.png">
 
-But they have several challenges, one of the most important ones that we can even see in one of their logos is actually to have a fair trade.
+Economic growth is a key to alleviate that hunger, and already in these communities there's a plethora of agronomic cooperatives eager to sell their products. 
+But, they have several challenges, one of the most important ones is to have a fair trade.
+
+<img src="https://i.ibb.co/QFDnBJm/Slide4.png">
 
 And that’s one of the biggest ones as we found out that most of these cooperatives have no electronic commerce and their products are being sold on other platforms in which case this does not reach the producers, indeed breaking fair trade which is devastating to those communities.
+
+<img src="https://i.ibb.co/0t97jc9/Slide5.png">
 
 Now, what does a consumer seek in a brand?
 
 The modern consumer seeks products that are:
 
-Socially Responsible
-Organic
-Healthy
-Sustainable
+* Socially Responsible
+* Organic
+* Healthy
+* Sustainable
+
 But mainly….
 That they generate trust
 
 Trust is determinant in a social setting as we can see from this example from Nike related to a very social cause.
+
+<img src="https://i.ibb.co/dJLMmTk/Slide9.png">
 
 Then our goal is to make a platform that HELPS producers by increasing consumer confidence and enhancing fair trade.
 
@@ -70,11 +76,21 @@ Then our goal is to make a platform that HELPS producers by increasing consumer 
 
 We have already taken some steps on that front by:
 
-Reaching out to a cooperative and get to know its pain points.
-Formed a commercial bond with them.
-Build a prototype and work together to launch it.
+<img src="https://i.ibb.co/HDs7vs6/Slide16.png">
 
-The cooperative in this case is one named Obio that works in southeast Mexico and it is backed by one of the largest banks in our country and the world.
+The cooperative in is named Obio that works in southeast Mexico and it is backed by one of the largest banks in our country and the world.
+
+Here are the links that show social proof of these statements:
+
+https://www.talent-republic.tv/imperdible/blank-ganador-indiscutible-del-talent-hackathon-citibanamex-2021/#:~:text=Blank%2C%20ganador%20indiscutible%20del%20Talent%20Hackathon%20Citibanamex%202021
+![image](https://user-images.githubusercontent.com/36020837/126959387-4e2dcbae-c6d1-4199-9b16-d4efbee52864.png)
+
+
+https://www.youtube.com/watch?v=QAhZB9Bro_0
+![image](https://user-images.githubusercontent.com/36020837/126959346-285d38b9-98e8-4a6b-a6fb-4dd473e17346.png)
+
+Here are some more articles written about the initiative:
+
 
 
 
