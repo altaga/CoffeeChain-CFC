@@ -92,11 +92,16 @@ Here is an extra video of the road and our first interview with the players in q
 
 https://youtu.be/IQ4431EjPZI
 
+More on obio:
+
+https://www.obioorganico.com/obio-y-asociados/
+
 
 
 # Validation
 
-Now this kind of idea has already reached several places and markets around the world such as the wine industry, beauty and others and it is heavily deployed by walmart china. But it has not been deployed in a social-responsible first project.
+<img src="https://i.ibb.co/5h78njw/Slide19.png">
+
 
 Having said this, we seek that our certificates guarantee that the purchase benefits whoever produces it.
 
@@ -110,42 +115,45 @@ Thank you.
 Video: Click on the image
 [![DEMO](./Images/logo.png)](https://www.youtube.com/watch?v=fDPsVpeqT7I)
 
+
+### From this point on you can find the technical documentation of the Project
+
 ## How it Works:
 
-Toda la plataforma estab primordialmente basada en servicios de IBM Cloud.
+The entire platform was primarily based on IBM Cloud services.
 
 <img src="./Images/diagram.png" width="80%">
 
-1. La aplicacion almacena los datos de los productos mediante una DB Cloudant.[Details](#cloudant)
-2. La base de datos es leida por la pagina web a travez de una API ejecuta una Cloud Function basada en Python para realizar el Query de la DB.[Details](#api-and-actions)
-3. Nostros Embed el chabot en el website a travez de la la Web Chat integration de IBM como un scipt.[Details](#chatbot)
-4. La pagina web esta desplegada mediante un el ciclo de CI/CD gracias a una IBM toolchain.[Details](#toolchain-cicd)
-5. La pagina verifica el provenance de los productos al leer los datos en la red de Solana.[Details](#solana-blockchain-integration)
-6. La aplicacion puede realizar el checkout del carrito mediante las API's de Rapyd.[Details](#rapyd-integration)
+1. The application stores the data of the products through a Cloudant database.[Details](#cloudant)
+2. The database is read by the web page through an API, it executes a Python-based Cloud Function to perform the DB Query.[Details](#api-and-actions)
+3. We embeded the chabot on the website through the IBM Web Chat integration as a scipt.[Details](#chatbot)
+4. The web page is deployed through a CI / CD cycle thanks to an IBM toolchain.[Details](#toolchain-cicd)
+5. The page verifies the provenance of the products by reading the data in the Solana blockchain.[Details](#solana-blockchain-integration)
+6. The application can check out the cart through the Rapyd APIs.[Details](#rapyd-integration)
 
-NOTA: Si deseas replicar este proyecto requieres tener una cuenta activa en IBM Cloud.
+NOTE: If you want to replicate this project you need to have an active account in IBM Cloud.
 
 [IBM Cloud Create Account](https://cloud.ibm.com/registration)
 
 ## Cloudant:
 
-Por facilidad y rapidez de implementacion, se decidio que una base de datos no relacional era lo ideal para este proyecto y para almacenar los productos de la plataforma.
+For ease and speed of implementation, it was decided that a non-relational database was ideal for this project and for storing the platform's products.
 
-La base de datos fue proporcionada por la empresa [Obio](https://www.obioorganico.com/), los productos mostrados en la plataforma son productos reales de productores mexicanos.
+The database was provided by the cooperative [Obio](https://www.obioorganico.com/), the products displayed on the platform are real products from real Mexican producers.
 
 <img src="./Images/db.png">
 
-Los documentos guardados en la DB de los productos son los siguientes.
+The documents stored in the DB of the products are as follows.
 
 <img src="./Images/db-product.png">
 
 ## API and Actions:
 
-Para poder consumir la base de datos en la pagina web de forma segura se implemento una API.
+In order to safely deploy the database on the website, an API was implemented.
 
 <img src="./Images/api.png">
 
-Cada ruta de la api esta ligada a una action, la cual tiene como fin obtener toda la base de datos u obtener solo una parte con un query, ambas se implementaron con un runtime Python 3.7 gracias a su facilidad de uso, dejamos el ejemplo de como realizamos el query de una parte de la DB.
+Each route of the API is linked to an action, which aims to obtain the entire database or obtain only a part with a query. Both were implemented with a Python 3.7 runtime because of its ease of use. We leave here an example of how we did the query in a part of the DB.
 
 /getDB-label
 
@@ -173,27 +181,27 @@ Cada ruta de la api esta ligada a una action, la cual tiene como fin obtener tod
 
     return({"data":response["docs"]})
 
-Esta API es ejecutada cada vez que seleccionamos en la aplicacion una categoria de productos.
+This API is executed every time we select a product category in the application.
 
 <img src="./Images/selectp.png">
 
-Si seleccionamos por ejemplo la honey, la action realizara solo el query de los productos que tengan como label honey.
+If we select, for example, honey, the action will only query the products that have honey as their label.
 
 <img src="./Images/honey.png">
 
 ## Chatbot:
 
-El chatbot fue completamente implementado mediante Watson assistant.
+The chatbot was fully implemented using Watson assistant.
 
 <img src="./Images/assistant.png">
 
-Este esta desplegado en la pagina web y puedes probarlo sin ningun problema.
+This is displayed on the website and you can try it without any problem.
 
 <img src="./Images/webassistant.png">
 
-Tiene como funciones principales dar informacion sobre las marcas de cafe.
+Its main functions are to provide information about coffee brands.
 
-- Para activar este Intent porfavor esciba en el chatbot alguna de las siguientes frases o similares.
+- To activate this Intent, please type one of the following or similar phrases in the chatbot.
 
   - Ask for coffee information
   - I want information about a coffee
@@ -201,9 +209,9 @@ Tiene como funciones principales dar informacion sobre las marcas de cafe.
 
 <img src="./Images/info.png">
 
-Otra de sus funciones es realizar un test para obtener el cafe ideal segun tus gustos.
+Another one of its functions is to carry out a test to obtain the ideal coffee according to your tastes.
 
-- Para activar este Intent porfavor esciba en el chatbot alguna de las siguientes frases o similares.
+- To activate this Intent, please type one of the following or similar phrases in the chatbot.
 
   - Coffee test
   - I want to know my favorite coffee
@@ -213,59 +221,59 @@ Otra de sus funciones es realizar un test para obtener el cafe ideal segun tus g
 
 ## Toolchain (CI/CD):
 
-Para poder desplegar la pagina y que pudiera ser utilizada por cualquier persona en el mundo se desplego siguiendo la metodologia CI/CD gracias a una toolchain de IBM.
+In order to display the page and that it could be used by anyone in the world it was deployed following the CI / CD methodology thanks to an IBM toolchain.
 
 <img src="./Images/CC-deploy.png">
 
-Todo el control de versiones se realizo mediante un repositorio alojado en IBM.
+All version control was done through a repository hosted by IBM.
 
 <img src="./Images/orion.png">
 
-Todo el desarrollo del frontend fue realizado con el framework ReactJS.
+All frontend development was done with the ReactJS framework.
 
 [WebPage](https://github.com/altaga/CoffeeChain-CFC/tree/main/Website)
 
 ## Solana Blockchain Integration:
 
-La pagina web puede leer los datos directamente de la blockchain de solana para buscar el registro de cada prodcuto mediante su signature, el cual esta encoding en un QR para poderlo leer facilmente con la plataforma.
+The website can read the data directly from the solana blockchain to find the record of each product through its signature, which is encoded in a QR to be able to read it easily with the platform.
 
 <img src="./Images/solana.png">
 
-La lectura y escritura sobre la blockchain se hace atravez de la API de Solana.
+Reading and writing on the blockchain is done through the Solana API.
 
 explorer-api.devnet.solana.com
 
-Esta seccion de la pagina tiene 3 secciones fundamentales.
+This section of the page has 3 fundamental sections.
 
-- El escaner de los codigos QR.
+- The QR code scanner.
 
 <img src="./Images/scan.png" width="50%">
 
-- La informacion cargada desde la blockchain, la cual incluye los checkpoints, imagen, marca y demas informacion relacionada con el producto
+- The information loaded from the blockchain, which includes the checkpoints, image, brand and other information related to the product:
   
 <img src="./Images/infos.png" width="50%">
 
-- El mapa que tiene como fin poder ver las ubicaciones donde ha estado el producto haciendo checkpoint en la cadena de distribucion, ademas sobre el tendremo un link al explorer de la blockchain para poder ver la informacion cargada en ella directamente, cabe decir que esta informacion es permanente e imposible de cambiar.
+- The map that aims to be able to see the locations where the product has been by checking the distribution chain, in addition to it we will have a link to the blockchain explorer to be able to see the information loaded in it directly, it should be said that this information it is permanent and impossible to change.
 
 <img src="./Images/blockinfo.png" width="50%">
 
-Aqui te dejamos el QR de uno de los productos para que puedas revisarlo tu mismo.
+Here we leave you the QR of one of the products so you can check it yourself.
 
 <img src="./Images/product.jpeg">
 
 ## Rapyd Integration: 
 
-El checkout de Rapyd es una de las partes mas importantes de el marketplace, ya que le da la capacidad de poder realizar pagos con dinero real para poder comprar los productos, en este caso la API que implementamos en la plataforma fue la de poder realizar el Checkout de los productos.
+The Rapyd checkout is one of the most important parts of the marketplace, since it gives you the ability to make payments with real money to buy the products, in this case the API that we implemented in the platform was to be able to perform the Checkout of the products.
 
-En ese caso la api es ejecutada una vez hemos terminado de seleccionar los productos y presionamos el boton de Checout.
+In that case, the API is executed once we have finished selecting the products and press the Checkout button.
 
 <img src="./Images/cart.png">
 
-Podemos ver que una vez preisonamos el boton de Checkout nos lleva dorectamente a la plagina de Checkout que nos da Rapyd.
+We can see that once we press the Checkout button it takes us directly to the Checkout page that Rapyd gives us.
 
 <img src="./Images/check.png">
 
-Como parte de la implementacion de Rapyd podemos facilmente seleccionar y agregar todos los metodos de pago que creamos convenientes para nuestro negocio.
+As part of the Rapyd implementation we can easily select and add all the payment methods that we think are convenient for our business.
 
 <img src="./Images/method.png">
 
