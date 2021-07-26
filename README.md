@@ -90,8 +90,7 @@ https://www.youtube.com/watch?v=QAhZB9Bro_0
 
 Here is an extra video of the road and our first interview with the players in question:
 
-
-
+https://youtu.be/IQ4431EjPZI
 
 
 
