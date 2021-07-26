@@ -76,20 +76,21 @@ Then our goal is to make a platform that HELPS producers by increasing consumer 
 
 We have already taken some steps on that front by:
 
-<img src="https://i.ibb.co/HDs7vs6/Slide16.png">
+<img src="https://i.ibb.co/HDzgTxX/traction.png">
 
 The cooperative in is named Obio that works in southeast Mexico and it is backed by one of the largest banks in our country and the world.
 
-Here are the links that show social proof of these statements:
+Here are the links that show social proof of these statements (Sorry, everything is in Spanish):
 
 https://www.talent-republic.tv/imperdible/blank-ganador-indiscutible-del-talent-hackathon-citibanamex-2021/#:~:text=Blank%2C%20ganador%20indiscutible%20del%20Talent%20Hackathon%20Citibanamex%202021
-![image](https://user-images.githubusercontent.com/36020837/126959387-4e2dcbae-c6d1-4199-9b16-d4efbee52864.png)
 
 
 https://www.youtube.com/watch?v=QAhZB9Bro_0
-![image](https://user-images.githubusercontent.com/36020837/126959346-285d38b9-98e8-4a6b-a6fb-4dd473e17346.png)
 
-Here are some more articles written about the initiative:
+
+Here is an extra video of the road and our first interview with the players in question:
+
+
 
 
 
