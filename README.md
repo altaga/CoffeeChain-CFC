@@ -9,6 +9,10 @@
 
 WebPage: https://coffee-chain-deploy-cfc.mybluemix.net/
 
+#### Scan a Product with this QR:
+
+<img src="./Images/product.jpeg">
+
 #### Click here to watch our demo video:
 
 [<img src="https://raw.githubusercontent.com/altaga/SCUP-WWAC/master/Images/click-here-button.png" width=200>](https://youtu.be/YXCFy-EfQ7s)
